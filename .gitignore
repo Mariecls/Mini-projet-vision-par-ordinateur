@@ -1,0 +1,29 @@
+# Credentials Kaggle (ne JAMAIS committer)
+kaggle.json
+
+# Dataset Intel Image Classification (telecharge via API Kaggle, hors du repo)
+intel_image_classification/
+
+# Poids de modeles : trop lourds pour Git (45 Mo chacun, limite GitHub 100 Mo)
+*.pt
+*.npz
+
+# Artefacts de compilation LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+rapport_individuel.*
+
+# Cache Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editeurs / OS
+.vscode/
+.idea/
+.DS_Store
